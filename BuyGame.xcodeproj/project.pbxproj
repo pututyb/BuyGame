@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08296E7E295071400064F445 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08296E7D295071400064F445 /* HomeView.swift */; };
 		082D46CF294F348B00198579 /* BuyGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D46CE294F348B00198579 /* BuyGameApp.swift */; };
 		082D46D1294F348B00198579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D46D0294F348B00198579 /* ContentView.swift */; };
 		082D46D3294F348E00198579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082D46D2294F348E00198579 /* Assets.xcassets */; };
 		082D46D6294F348E00198579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082D46D5294F348E00198579 /* Preview Assets.xcassets */; };
+		082D46DD294F3F6800198579 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D46DC294F3F6800198579 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08296E7D295071400064F445 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		082D46CB294F348B00198579 /* BuyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082D46CE294F348B00198579 /* BuyGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyGameApp.swift; sourceTree = "<group>"; };
 		082D46D0294F348B00198579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		082D46D2294F348E00198579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082D46D5294F348E00198579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		082D46DC294F3F6800198579 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				082D46CE294F348B00198579 /* BuyGameApp.swift */,
 				082D46D0294F348B00198579 /* ContentView.swift */,
+				08296E7D295071400064F445 /* HomeView.swift */,
+				082D46DC294F3F6800198579 /* ItemModel.swift */,
 				082D46D2294F348E00198579 /* Assets.xcassets */,
 				082D46D4294F348E00198579 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082D46DD294F3F6800198579 /* ItemModel.swift in Sources */,
+				08296E7E295071400064F445 /* HomeView.swift in Sources */,
 				082D46D1294F348B00198579 /* ContentView.swift in Sources */,
 				082D46CF294F348B00198579 /* BuyGameApp.swift in Sources */,
 			);
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
